@@ -1,0 +1,53 @@
+@charset "utf8";
+/* 公共样式 */
+body{
+  background-color: #000;
+}
+#Gamebox {
+  position: relative;
+  overflow: hidden;
+  width: 750px;
+  height: 500px;
+  margin:60px auto;
+  font-family: "microsort yahei";
+  text-align: center;
+  border: 5px solid #fff;
+  background:url("images/backGroundImg.png") no-repeat center/cover;
+}
+.tip1{
+  position: absolute;
+  top: 58px;
+  left: 352px;
+  color: #06B97F;
+}
+.tip2{
+  position: relative;
+  top: 215px;
+  left: 72px;
+  color: #20A7DE;
+  cursor: pointer;
+} 
+.tip3{
+  position: absolute;
+  top: 330px;
+  left: 242px;
+  color: #B187DC;
+  cursor: pointer;
+}
+.tip4{
+  position: absolute;
+  top: 142px;
+  left: 548px;
+  color: #EE6647;
+}
+.tip5{
+  position: absolute;
+  top: 244px;
+  left: 112px;
+  color: #EE6647;
+  cursor: pointer;
+}
+.tip2:hover, .tip3:hover, .tip5:hover{
+  transition: .8s;
+  transform: scale(1.3);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>43js</title>
+    <meta name = "descriptio" content = "" >
+    <meta name = "keywords" content = "" >
+    <link rel="stylesheet" href="index.css">
+    <style >
+      *{margin: 0;padding: 0;}
+      .fl {float: left;}
+      .fr {float: right;}
+      .clearfix:after {content: "";display: block;clear: both;}
+      a {text-decoration: none; color: #000;}
+      ul {list-style-type: none;}
+    </style>
+    <script src= "https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"> </script>
+  </head>
+  <body>
+    <div id="Gamebox">
+      <h1 class="tip1" >贪吃蛇</h1>
+      <h2 class="tip2">进入游戏</h2>
+      <h2 class="tip3">游戏设置</h2>
+      <h2 class="tip4">Version 0.5</h2>
+      <h2 class="tip5">退出游戏</h2>
+    </div>
+    <script>
+      (function(){
+
+        $Gbox = $("#Gamebox");
+        $(".tip2").click(function(){
+          $Gbox.html('').css({"background-image":"url('images/gameBGImg1.png')", "width":"800px"})
+        })
+      })();
+    </script>
+  </body>
+</html>
